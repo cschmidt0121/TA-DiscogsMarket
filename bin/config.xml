@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<input>
+  <server_host>valhalla</server_host>
+  <server_uri>https://127.0.0.1:8089</server_uri>
+  <session_key>NOChZQVqVQykJR1MigIMQf6ESWiKOo^b^u9EjW0VoW1Z5ZZFwmlv2^LGMTQfjL4YzQ^ivwQqGMYZfMaaS0l_MY1CahQgKtYbBV40yG3AOC^LlAGkfRbvg5lKLG23^Q^HLdzqpATC</session_key>
+  <checkpoint_dir>/opt/splunk/var/lib/splunk/modinputs/discogs_prices</checkpoint_dir>
+  <configuration>
+    <stanza name="discogs_prices://test">
+      <param name="host">valhalla</param>
+      <param name="id">1791771</param>
+      <param name="index">default</param>
+      <param name="interval">3600</param>
+    </stanza>
+  </configuration>
+</input>

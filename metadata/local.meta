@@ -1,0 +1,8 @@
+[app/install/is_configured]
+version = 6.4.3
+modtime = 1473299121.877353000
+
+[passwords/credential%3A%3Atest%3A]
+owner = admin
+version = 6.4.3
+modtime = 1473299121.874429000

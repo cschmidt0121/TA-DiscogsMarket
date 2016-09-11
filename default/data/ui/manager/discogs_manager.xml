@@ -1,0 +1,35 @@
+<endpoint name="data/inputs/discogs_prices">
+	<header>REST</header>
+	<breadcrumb>
+		<parent hidecurrent="False">datainputstats</parent>
+		<name>REST</name>
+	</breadcrumb>
+	<elements>
+		<element name="sourceFields" type="fieldset">
+			<view name="list" />
+			<view name="edit" />
+			<view name="create" />
+			<elements>
+				<element name="name" label="Input Name">
+					<view name="list" />
+					<view name="create" />
+				</element>
+
+				<element name="id" type="textfield" label="Release ID">
+
+					<view name="edit" />
+					<view name="create" />
+					<view name="list" />
+				</element>
+                <element name="interval" type="textfield" label="Interval (seconds/cron schedule)">
+
+					<view name="edit" />
+					<view name="create" />
+					<view name="list" />
+					<key name="exampleText">Discogs API is limited to 240 requests per limit.</key>
+				</element>
+
+			</elements>
+		</element>
+	</elements>
+</endpoint>
